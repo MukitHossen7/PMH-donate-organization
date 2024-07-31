@@ -1,0 +1,7 @@
+@media screen and (min-width:993px) and (max-width:1024px) {
+    /* donate-today-responsive-Start */
+    .donate-today-text .amount{
+        margin: 0px 130px;
+    }
+     /* donate-today-responsive-End */
+}

@@ -1,0 +1,14 @@
+@media screen and (min-width:577px) and (max-width:992px) {
+    .banner-text h1{
+        font-size: 3.5rem;
+    }
+
+    /* donate-today-responsive-Start */
+    .donate-today-area{
+        margin-top: 100px;
+    }
+    .donate-today-text .amount{
+        margin: 0px 5px;
+    }
+     /* donate-today-responsive-End */
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width:576px) {
+    /* banner-responsive-start */
+    
+    .banner-text h1{
+        font-size: 2.8rem;
+    }
+    .banner-text p{
+        font-size: 0.9rem;
+    }
+    .banner-text .btn a{
+        font-size: 1rem;
+    }
+    
+    /* banner-responsive-end */
+    /* donate-today-responsive-Start */
+    .donate-today-area{
+        margin-top: 85px;
+    }
+    .donate-today-text .amount{
+        margin: 0px 15px;
+    }
+    .donate-today-text h2{
+        font-size: 2.8rem;
+    }
+    .donate-today-text .description{
+        font-size: 0.9rem;
+    }
+    .donate-today-text button a{
+        font-size: 1rem;
+    }
+    /* donate-today-responsive-End */
+}
