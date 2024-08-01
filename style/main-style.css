@@ -149,3 +149,136 @@ border-radius: 5px;
    margin-top: 30px;
 }
 /* donate-today-section-End */
+
+/* donate-plan-section-Start */
+.donate-plan-container{
+    /* max-width: 1080px; */
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.donate-plan-text{
+    max-width: 690px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.donate-plan-text h2{
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.donate-plan-text p{
+color: var(--third-color);    
+font-family: Poppins;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 28px;;
+text-align: center;
+}
+.donate-plan-card{
+    /* display: flex;
+    flex-wrap: wrap; */
+     display: grid;
+     grid-template-columns: repeat(3,1fr); 
+     gap: 27px;
+}
+.food-card{
+    max-width: 360px;
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.1);
+    padding: 63px 22px 54px 23px;
+}
+.shelter-card{
+    max-width: 360px;
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.1);
+    padding: 63px 22px 54px 23px;
+}
+.education-card{
+    max-width: 360px;
+    border-radius: 5px;
+    background: rgb(247, 229, 185);
+    padding: 63px 22px 54px 23px;
+}
+.donate-plan-card h4{
+color: var(--secondary-color);
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 600;
+text-align: left;
+margin-bottom: 16px;
+}
+.donate-plan-card p{
+/* color: var(--third-color); */
+color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.donate-plan-card img{
+    margin-bottom: 31px;
+}
+/* donate-plan-section-End */
+
+/* depend-section-Start */
+.depend-container{
+    width: 68%;
+    height: 400px;
+    margin-left: 190px;
+    margin-top: 110px;
+}
+.depend-text-area h2{
+color: var(--secondary-color);
+font-family: Inter;
+font-size:2.8125rem;
+font-weight: 700;
+text-align: left;
+margin-bottom: 20px;
+}
+.depend-text-area p{
+    color: var(--third-color);
+    font-family: Poppins;
+    font-size:1.125rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.depend-text-area button{
+    background-color: var(--btn-bc-color);
+    border: none;
+    font-family: Inter;
+    text-align: left;
+    padding: 16px 20px ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.depend-text-area button a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size:1.25rem;
+    font-weight: 600;
+}
+.depend-text-area{
+    width: 50%;
+}
+.depend-img-area{
+    width: 50%;
+    height: 450px;
+}
+.depend-img-area img{
+    width: 100%;
+    height: 100%;
+}
+.depend-area{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+}
+/* depend-section-End */

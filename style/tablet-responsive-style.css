@@ -11,4 +11,24 @@
         margin: 0px 5px;
     }
      /* donate-today-responsive-End */
+     /* donate-plan-responsive-Start */
+     .donate-plan-container{
+        margin-top:100px;
+        width: 85%;
+     }
+      /* donate-plan-responsive-End */
+
+      /* depend-responsive-Start */
+      .depend-container{
+        margin-left: 0;
+        margin-top:100px;
+        width: 100%;
+        padding: 0 10px;
+      }
+      .depend-img-area, .depend-text-area{
+        width: 100%;
+    } 
+
+      /* depend-responsive-End */
+
 }

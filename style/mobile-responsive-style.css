@@ -29,4 +29,51 @@
         font-size: 1rem;
     }
     /* donate-today-responsive-End */
+    /* donate-plan-responsive-Start */
+    .donate-plan-card{
+      grid-template-columns: repeat(1,1fr); 
+    }
+    .donate-plan-container{
+        width: 100%;
+        margin-top:85px;
+    }
+    .donate-plan-text h2{
+        font-size: 2.8rem;
+    }
+    .donate-plan-text p{
+        font-size: 0.9rem;
+    }
+    .food-card{
+        max-width: 100%;
+    }
+    .shelter-card{
+        max-width: 100%;
+    }
+    .education-card{
+        max-width: 100%;
+    }
+    /* donate-plan-responsive-End */
+    /* depend-responsive-Start */
+.depend-container{
+    margin-left: 0;
+    width: 100%;
+    margin-top:85px;
+}
+.depend-area{
+flex-direction: column;
+gap: 50px;
+}
+.depend-img-area, .depend-text-area{
+    width: 100%;
+}
+.depend-text-area{
+    padding: 0 10px;
+}
+.depend-text-area h2{
+    font-size: 2.8rem;
+}
+.depend-text-area p{
+    font-size: 0.9rem;
+}
+    /* depend-responsive-End */
 }

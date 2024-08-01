@@ -3,6 +3,9 @@
     .donate-today-text .amount{
         margin: 0px 340px;
     }
+    .depend-container {
+        margin-left: 180px;
+    }
 }
 @media screen and (min-width:993px) and (max-width:1024px) {
     /* donate-today-responsive-Start */
@@ -10,4 +13,9 @@
         margin: 0px 130px;
     }
      /* donate-today-responsive-End */
+     /* depend-responsive-Start */
+     .depend-container{
+        margin-left: 125px;
+     }
+     /* depend-responsive-End */
 }
