@@ -28,7 +28,22 @@
       .depend-img-area, .depend-text-area{
         width: 100%;
     } 
+    .depend-text-area{
+        padding: 10px 0;
+    }
 
       /* depend-responsive-End */
+     /* servive-section responsive Start */
+.servive-container{
+    margin-left: 0;
+    margin-top:100px;
+    width: 100%;
+    padding: 0 10px;
+}
+.servive-img-area, .servive-text-area{
+    width: 100%;
+}
+
+     /* servive-section responsive End */
 
 }
