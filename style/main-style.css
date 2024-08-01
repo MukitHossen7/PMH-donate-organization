@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -337,3 +340,69 @@ margin-bottom: 30px;
     font-weight: 600;
 }
 /* servive-section End */
+
+/* update-section-Start */
+.update-area{
+    width: 100%;
+    margin-top: 130px;
+}
+.update-text-area{
+    max-width: 690px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.update-text-area h2{
+color: var(--secondary-color);
+font-family: Inter;
+font-size: 2.8125rem;
+font-weight: 700;
+text-align: center;
+margin-bottom: 20px;
+}
+.update-text-area p{
+color: var(--third-color);
+font-family: Poppins;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+.update-input-area{
+    max-width: 800px;
+    background: rgb(255, 244, 214);
+    padding: 76px 188px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update-input-area input[type="email"]{
+    max-width: 275px;
+    border-radius: 5px 0px 0px 5px;
+    background: rgb(217, 217, 217);
+    border: none;
+    color: rgb(170, 159, 159);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 14px 218px 14px 17px;
+}
+.update-input-area button{
+    max-width: 157px;
+    border-radius: 0px 5px 5px 0px;
+    background: rgb(255, 89, 89);
+    border: none;
+    padding: 14px 43px 14px 42px;
+
+}
+.update-input-area button a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.update-input-area button:hover{
+    cursor: pointer;
+}
+/* update-section-End */
