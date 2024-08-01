@@ -66,11 +66,16 @@ gap: 50px;
 .depend-img-area, .depend-text-area{
     width: 100%;
 }
+.depend-text-area{
+    text-align: center;
+}
 .depend-text-area h2{
     font-size: 2.8rem;
+    text-align: center;
 }
 .depend-text-area p{
     font-size: 0.9rem;
+    text-align: center;
 }
     /* depend-responsive-End */
     /* servive-section responsive Start */
@@ -85,9 +90,14 @@ gap: 50px;
     }
     .servive-text-area h2{
         font-size: 2.8rem;
+        text-align: center;
     }
     .servive-text-area p{
         font-size: 0.9rem;
+        text-align: center;
+    }
+    .servive-text-area{
+        text-align: center;
     }
     .servive-img-area, .servive-text-area{
      width: 100%;
